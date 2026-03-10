@@ -480,19 +480,6 @@ export default function RNAFooter() {
             </p>
             <div style={{ display: "flex", gap: "20px" }}>
               <Link
-                href="/terms"
-                className="footer-link-hover"
-                style={{
-                  fontFamily: "'Manrope', Arial, Helvetica, sans-serif",
-                  fontSize: "13px",
-                  fontWeight: 400,
-                  color: "rgba(255,255,255,0.4)",
-                  textDecoration: "none",
-                }}
-              >
-                Terms of use
-              </Link>
-              <Link
                 href="/privacy"
                 className="footer-link-hover"
                 style={{
