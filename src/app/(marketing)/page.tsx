@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import TechnologyTabs from "@/components/TechnologyTabs";
 import Section5Stats from "@/components/Section5Stats";
-import RNAFooter from "@/components/RNAFooter";
 
 export const metadata: Metadata = {
   title: "Total RNA Sequencing from $60/sample - biostate.AI",
@@ -1232,7 +1231,5 @@ export default function RNASequencingPage() {
       </section>
       </div>
 
-      <RNAFooter />
-    </div>
   );
 }
