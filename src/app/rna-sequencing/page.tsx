@@ -1,4 +1,6 @@
 import type { Metadata } from "next";
+import LandingHeader from "@/components/LandingHeader";
+import RNAFooter from "@/components/RNAFooter";
 import TechnologyTabs from "@/components/TechnologyTabs";
 import Section5Stats from "@/components/Section5Stats";
 
@@ -10,6 +12,8 @@ export const metadata: Metadata = {
 
 export default function RNASequencingPage() {
   return (
+    <>
+      <LandingHeader />
     <div>
       {/* Hero Section */}
       <section
@@ -1231,5 +1235,7 @@ export default function RNASequencingPage() {
       </section>
       </div>
     </div>
+      <RNAFooter />
+    </>
   );
 }
