@@ -1,6 +1,5 @@
 import LandingHeader from "@/components/LandingHeader";
 import RNAFooter from "@/components/RNAFooter";
-import ChatWidget from "@/components/ChatWidget";
 import ClientBody from "@/components/ClientBody";
 
 export default function DefaultLayout({
@@ -12,7 +11,6 @@ export default function DefaultLayout({
     <ClientBody>
       <LandingHeader />
       <main>{children}</main>
-      <ChatWidget />
       <RNAFooter />
     </ClientBody>
   );
