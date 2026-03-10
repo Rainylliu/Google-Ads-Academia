@@ -1210,7 +1210,9 @@ export default function RNASequencingPage() {
             </div>
 
             <a
-              href="/ai"
+              href="https://omicsweb.biostate.ai/account/login?returnUrl=%2Fcopilot"
+              target="_blank"
+              rel="noopener noreferrer"
               className="book-a-call-btn group"
               style={{ marginTop: "40px", display: "inline-flex" }}
             >
