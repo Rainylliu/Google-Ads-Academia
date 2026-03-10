@@ -162,118 +162,44 @@ export default function WhitePaperPage() {
       >
         <div
           style={{
-            borderRadius: "20px",
-            overflow: "hidden",
-            border: "1px solid #E6EAF2",
-            boxShadow: "0 10px 28px rgba(0,0,0,0.06)",
+            position: "relative",
+            width: "100%",
+            height: 0,
+            paddingBottom: "75%",
           }}
         >
-          {/* PDF Header */}
-          <div
+          <iframe
+            src="https://cdn.prod.website-files.com/67a3b8fb7bd426c2ac36fa56/67fe575bfa9b1fa07d980457_20250402-BIRT%2BPERD%20One%20Page.pdf#toolbar=0&navpanes=0&scrollbar=0"
             style={{
-              padding: "22px 26px",
-              background: "linear-gradient(90deg, #45D0BD, #44B6E9)",
-              color: "white",
+              position: "absolute",
+              top: 0,
+              left: 0,
+              width: "100%",
+              height: "100%",
+              border: "none",
             }}
+            title="BIRT+PERD White Paper PDF"
+          />
+        </div>
+        <div style={{ textAlign: "center", marginTop: "24px" }}>
+          <a
+            href="https://cdn.prod.website-files.com/67a3b8fb7bd426c2ac36fa56/67fe575bfa9b1fa07d980457_20250402-BIRT%2BPERD%20One%20Page.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="book-a-call-btn book-a-call-btn-solid-teal"
           >
-            <div
-              style={{
-                fontSize: "22px",
-                fontWeight: 700,
-                fontFamily: "'Manrope', Arial, Helvetica, sans-serif",
-                letterSpacing: "-0.5px",
-              }}
-            >
-              View the PDF Document
-            </div>
-          </div>
-
-          {/* PDF Preview Embed */}
-          <div style={{ width: "100%", background: "white" }}>
-            <div
-              style={{
-                position: "relative",
-                width: "100%",
-                paddingTop: "120%",
-              }}
-            >
-              <iframe
-                src="/pdf/20250402-BIRT%2BPERD%20One%20Page.pdf"
-                style={{
-                  position: "absolute",
-                  top: 0,
-                  left: 0,
-                  width: "100%",
-                  height: "100%",
-                  border: "none",
-                }}
-                title="BIRT+PERD White Paper PDF"
-              />
-            </div>
-          </div>
-
-          {/* CTA Footer */}
-          <div
-            style={{
-              padding: "26px",
-              textAlign: "center",
-              background: "#F9FBFF",
-            }}
-          >
-            <div style={{ display: "inline-flex", gap: "16px", alignItems: "center", flexWrap: "wrap", justifyContent: "center" }}>
-              <a
-                href="/get-quote"
-                className="book-a-call-btn book-a-call-btn-solid-teal"
-              >
-                Request a Quote
-                <span className="book-a-call-arrow">
-                  <span className="book-a-call-arrow-inner">
-                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
-                      <path d="M4 12L12 4M12 4H5M12 4V11" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-                    </svg>
-                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
-                      <path d="M4 12L12 4M12 4H5M12 4V11" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-                    </svg>
-                  </span>
-                </span>
-              </a>
-              <a
-                href="/pdf/20250402-BIRT%2BPERD%20One%20Page.pdf"
-                download
-                className="book-a-call-btn book-a-call-btn-solid-teal"
-              >
-                Download
-                <span className="book-a-call-arrow">
-                  <span className="book-a-call-arrow-inner">
-                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
-                      <path d="M4 12L12 4M12 4H5M12 4V11" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-                    </svg>
-                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
-                      <path d="M4 12L12 4M12 4H5M12 4V11" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-                    </svg>
-                  </span>
-                </span>
-              </a>
-            </div>
-            <div
-              style={{
-                marginTop: "14px",
-                fontSize: "12px",
-                color: "#6B7280",
-                lineHeight: "18px",
-                fontFamily: "'Manrope', Arial, Helvetica, sans-serif",
-              }}
-            >
-              By submitting, you agree to Biostate&apos;s{" "}
-              <a
-                href="/tc"
-                style={{ color: "#44B6E9", textDecoration: "none" }}
-              >
-                Terms &amp; Conditions
-              </a>
-              .
-            </div>
-          </div>
+            Download PDF
+            <span className="book-a-call-arrow">
+              <span className="book-a-call-arrow-inner">
+                <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+                  <path d="M4 12L12 4M12 4H5M12 4V11" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+                </svg>
+                <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+                  <path d="M4 12L12 4M12 4H5M12 4V11" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+                </svg>
+              </span>
+            </span>
+          </a>
         </div>
       </section>
 
