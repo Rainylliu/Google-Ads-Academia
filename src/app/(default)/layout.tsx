@@ -1,5 +1,5 @@
-import Header from "@/components/Header";
-import Footer from "@/components/Footer";
+import LandingHeader from "@/components/LandingHeader";
+import RNAFooter from "@/components/RNAFooter";
 import ChatWidget from "@/components/ChatWidget";
 import ClientBody from "@/components/ClientBody";
 
@@ -10,10 +10,10 @@ export default function DefaultLayout({
 }>) {
   return (
     <ClientBody>
-      <Header />
+      <LandingHeader />
       <main>{children}</main>
-      <Footer />
       <ChatWidget />
+      <RNAFooter />
     </ClientBody>
   );
 }
