@@ -492,10 +492,8 @@ export default function RNAFooter() {
               >
                 Privacy Policy
               </Link>
-              <a
-                href="https://www.biostate.ai/sales-tc/"
-                target="_blank"
-                rel="noopener noreferrer"
+              <Link
+                href="/tc"
                 className="footer-link-hover"
                 style={{
                   fontFamily: "'Manrope', Arial, Helvetica, sans-serif",
@@ -506,7 +504,7 @@ export default function RNAFooter() {
                 }}
               >
                 Terms &amp; Conditions
-              </a>
+              </Link>
             </div>
           </div>
         </div>
