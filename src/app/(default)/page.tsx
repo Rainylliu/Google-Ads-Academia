@@ -1,8 +1,4 @@
 import type { Metadata } from "next";
-import Header from "@/components/Header";
-import Footer from "@/components/Footer";
-import ChatWidget from "@/components/ChatWidget";
-import ClientBody from "@/components/ClientBody";
 import TechnologyTabs from "@/components/TechnologyTabs";
 import Section5Stats from "@/components/Section5Stats";
 
@@ -14,9 +10,6 @@ export const metadata: Metadata = {
 
 export default function RNASequencingPage() {
   return (
-    <ClientBody>
-      <Header />
-      <main>
     <div>
       {/* Hero Section */}
       <section
@@ -1239,9 +1232,5 @@ export default function RNASequencingPage() {
       </div>
 
     </div>
-      </main>
-      <Footer />
-      <ChatWidget />
-    </ClientBody>
   );
 }
