@@ -10,6 +10,21 @@ export default function ClientBody({
 }) {
   const [loaded, setLoaded] = useState(false);
 
+  useEffect(() => {
+    if (window.parent !== window) {
+      const sendHeight = () => {
+        window.parent.postMessage(
+          { type: "resize", height: document.body.scrollHeight },
+          "*"
+        );
+      };
+      sendHeight();
+      const observer = new ResizeObserver(sendHeight);
+      observer.observe(document.body);
+      return () => observer.disconnect();
+    }
+  }, []);
+
   return (
     <>
       <LoadingScreen onDone={() => setLoaded(true)} />
