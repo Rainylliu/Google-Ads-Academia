@@ -199,7 +199,7 @@ export default function RNASequencingPage() {
               </div>
               <div style={{ marginTop: "32px" }}>
                 <a
-                  href="/pdf/20250402-BIRT+PERD One Page.pdf"
+                  href="/pdf/20250402-BIRT%2BPERD%20One%20Page.pdf"
                   download
                   className="book-a-call-btn"
                 >

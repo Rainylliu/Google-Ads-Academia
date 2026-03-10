@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import RNAFooter from "@/components/RNAFooter";
 
 export const metadata: Metadata = {
   title: "BIRT+PERD White Paper - biostate.AI",
@@ -199,7 +198,7 @@ export default function WhitePaperPage() {
               }}
             >
               <iframe
-                src="/pdf/20250402-BIRT+PERD One Page.pdf"
+                src="/pdf/20250402-BIRT%2BPERD%20One%20Page.pdf"
                 style={{
                   position: "absolute",
                   top: 0,
@@ -239,7 +238,7 @@ export default function WhitePaperPage() {
                 </span>
               </a>
               <a
-                href="/pdf/20250402-BIRT+PERD One Page.pdf"
+                href="/pdf/20250402-BIRT%2BPERD%20One%20Page.pdf"
                 download
                 className="book-a-call-btn book-a-call-btn-solid-teal"
               >
@@ -278,7 +277,6 @@ export default function WhitePaperPage() {
         </div>
       </section>
 
-      <RNAFooter />
     </div>
   );
 }
