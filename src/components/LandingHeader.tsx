@@ -76,14 +76,14 @@ export default function LandingHeader() {
                 style={{ opacity: menuHovered ? 1 : 0 }}
               />
             </button>
-            <a href="https://www.biostate.ai/" target="_blank" rel="noopener noreferrer" className="flex items-center">
+            <Link href="/" className="flex items-center">
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
                 src="/images/logo.svg"
                 alt="biostate.AI"
                 style={{ height: "24px", width: "auto" }}
               />
-            </a>
+            </Link>
           </div>
 
           {/* Right: Nav + CTA buttons */}
