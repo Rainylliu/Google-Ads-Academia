@@ -1231,5 +1231,6 @@ export default function RNASequencingPage() {
       </section>
       </div>
 
+    </div>
   );
 }
