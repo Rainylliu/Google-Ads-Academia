@@ -725,9 +725,8 @@ export default function RNASequencingPage() {
                   transcriptome coverage.
                 </p>
                 <a
-                  href="https://drive.google.com/file/d/1WtAcCwAINXq3dIKEAyVHqMO_e7o8ch59/view?usp=sharing"
-                  target="_blank"
-                  rel="noopener noreferrer"
+                  href="/pdf/20250402-BIRT%2BPERD%20One%20Page.pdf"
+                  download
                   className="book-a-call-btn book-a-call-btn-dark group"
                 >
                   Download Technical Overview
