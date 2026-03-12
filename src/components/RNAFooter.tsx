@@ -493,7 +493,7 @@ export default function RNAFooter() {
                 Privacy Policy
               </Link>
               <a
-                href="/pdf/T%26C-03062026.pdf"
+                href="/pdf/TC-03062026.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="footer-link-hover"
