@@ -493,7 +493,7 @@ export default function RNAFooter() {
                 Privacy Policy
               </Link>
               <a
-                href="/pdf/TC-03062026.pdf"
+                href="https://www.biostate.ai/sales-tc/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="footer-link-hover"
