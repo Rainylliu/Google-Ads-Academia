@@ -753,7 +753,7 @@ export default function QuoteForm() {
         >
           By submitting, you agree to Biostate&apos;s{" "}
           <a
-            href="/pdf/TC-03062026.pdf"
+            href="https://www.biostate.ai/sales-tc/"
             target="_blank"
             rel="noopener noreferrer"
             className="terms-link"
